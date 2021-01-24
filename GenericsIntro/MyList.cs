@@ -15,7 +15,7 @@ namespace GenericsIntro
 
         public void Add(T item)
         {
-            T[] tempArray = items;   //tempArray=geçiciDizi
+            T[] tempArray = items;   //tempArray=geçiciDizi //2001
             items = new T[items.Length+1];
 
             for (int i = 0; i < tempArray.Length; i++)
